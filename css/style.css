@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Tangerine:700&display=swap');
+
+html{
+  font-size: 20px;
+  font-family: 'Cutive Mono', monospace;
+  /* background-color: #f6ad7b; */
+  background-color: #ffc06e;
+}
+
+h1, h2{
+  font-family: 'Tangerine', cursive;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+header{
+  text-align: center;
+  font-size: 100px;
+}
+
+img{
+  border-color:;
+  border: 1px #fff solid;
+  display: block;
+}
+main{
+  display:grid;
+  grid-template-columns: 2fr;
+}
+main > section{
+  grid-row: 2;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+}
+section:first-child{
+  grid-row: 1 / span 2;
+
+}
+
+section:nth-child(2) {
+  grid-row: 1;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+section:last-child {
+  grid-row:2;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+}
