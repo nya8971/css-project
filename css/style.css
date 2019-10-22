@@ -89,9 +89,9 @@ section:first-child >p:last-child{
   color: #fff;
 }
 
-a:visited{
+a:link{
   color: rgb(56, 92, 21);
 }
-a:linked{
-  color: rgb(91, 131, 58);
+a:visited{
+  color: #F94B05;
 }
