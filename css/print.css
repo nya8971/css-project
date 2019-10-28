@@ -1,0 +1,73 @@
+@media print{
+  @page{
+    width: 4.25in;
+    height:5.5in;
+  }
+  body{
+    font-size: .75rem;
+  }
+  div{
+    size: 4.25in 5.5in;
+    border: 1px #000 solid;
+    padding: .65rem;
+  }
+  img{
+    filter: grayscale();
+    margin:0;
+  }
+  section:nth-child(2) img[src="img/two-oranges-copy-lg.jpg"] {
+    display: none;
+    content: none;
+  }
+  img[src$="lg.jpg"]:not([src$="small.jpg"]):after {
+    content: none;
+}
+  h1{
+    margin: 0;
+  }
+  h2{
+    text-align: center;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  a::after{
+    content: " [" attr(href)"] ";
+    text-decoration: none;
+  }
+  main{
+    display:grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 4fr;
+  }
+  section:first-child{
+    grid-column: : 1;
+  }
+
+  section:nth-child(2) {
+    grid-column: 1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  section:nth-child(3) {
+    grid-column: 2;
+  }
+
+  section:last-child {
+    grid-column: 3;
+  }
+  footer{
+    grid-column: 3;
+    grid-row: 3;
+    text-align: right;
+  }
+  a::after,footer,section:nth-child(2)>p{
+    font-size: .55rem;
+  }
+
+  main>ul[href*="https"]:not():after {
+    content: none;
+    display: none;
+  }
+}
