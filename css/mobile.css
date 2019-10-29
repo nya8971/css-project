@@ -26,6 +26,10 @@
     margin: 0 auto;
     grid-row: 2;
     grid-column: 1;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> parent of 48b606b... added padding to mobile stylesheet
   }
   section:nth-child(4){
     margin: 0 auto;
