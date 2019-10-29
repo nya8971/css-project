@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Tangerine:700&display=swap');
-@media screen {
 
 html{
   font-size: 1.25rem;
   font-family: 'Cutive Mono', monospace;
   background-color: #ffc06e;
-  /* background-image: url(../img/two-oranges-copy-lg.jpg); */
 
 }
 header > h1{
@@ -46,7 +44,7 @@ img{
   display: block;
   margin-top: 0;
 }
-section:nth-child(3) img[src="img/two-oranges-copy-small.jpg"]{
+section:nth-child(3) img[src="img/two-oranges-copy-small.jpg"],section:nth-child(3) img[src="img/two-oranges-copy-tablet.jpg"]{
   display: none;
 }
 main{
@@ -122,5 +120,4 @@ a:visited{
 }
 a:hover{
   color: blue;
-}
 }

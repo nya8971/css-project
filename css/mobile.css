@@ -10,7 +10,7 @@
     width: 100%;
     min-width: 350px;
   }
-  section:nth-child(3) img[src="img/two-oranges-copy-small.jpg"]{
+  section:nth-child(3) img[src="img/two-oranges-copy-small.jpg"],section:nth-child(3) img[src="img/two-oranges-copy-lg.jpg"]{
     display: none;
   }
   section:first-child{
