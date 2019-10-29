@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Tangerine:700&display=swap');
+@media screen {
 
+}
 html{
   font-size: 1.25rem;
   font-family: 'Cutive Mono', monospace;
@@ -120,4 +122,5 @@ a:visited{
 }
 a:hover{
   color: blue;
+}
 }
