@@ -8,7 +8,7 @@
     padding: .65rem;
   }
   img{
-    filter: grayscale();
+    filter: grayscale(1);
     margin:0;
   }
   section:nth-child(3) img[src="img/two-oranges-copy-lg.jpg"],section:nth-child(4),section:first-child {
@@ -16,7 +16,7 @@
   }
   h1{
     margin: 0;
-    padding-bottom: 1rem;
+    padding-bottom: 0;
   }
   h2{
     text-align: center;
@@ -26,7 +26,7 @@
     text-decoration: none;
   }
 
-  footer a::after, section:nth-child(3) a::after{
+  footer a::after, section:nth-child(3) a:last-child::after{
     content: " ["attr(href)"] ";
     text-decoration: none;
   }

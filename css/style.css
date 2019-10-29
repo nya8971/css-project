@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Tangerine:700&display=swap');
+@media screen {
 
 html{
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: 'Cutive Mono', monospace;
   background-color: #ffc06e;
   /* background-image: url(../img/two-oranges-copy-lg.jpg); */
@@ -121,4 +122,5 @@ a:visited{
 }
 a:hover{
   color: blue;
+}
 }
