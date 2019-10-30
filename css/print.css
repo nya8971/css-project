@@ -11,7 +11,7 @@
     filter: grayscale(1);
     margin:0;
   }
-  section:nth-child(3) img[src="img/two-oranges-copy-lg.jpg"],section:nth-child(4),section:first-child {
+  section:nth-child(4),section:first-child {
     display: none;
   }
   h1{
