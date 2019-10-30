@@ -12,7 +12,7 @@
     filter: grayscale(1);
     margin:0;
   }
-
+  
   section:nth-child(4),section:first-child {
     display: none;
   }

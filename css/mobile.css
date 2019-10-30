@@ -1,4 +1,4 @@
-@media (max-width: 700px) {
+@media (max-width: 834px) {
   main{
     display: grid;
     grid-template-columns: 2fr;
@@ -41,13 +41,14 @@
     grid-column: 2;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 414px) {
   main{
     display: grid;
     margin: 0 auto;
     grid-template-columns: 1fr;
     grid-template-rows: 6fr;
   }
+  
    img{
     width: 100%;
     min-width: 150px;
